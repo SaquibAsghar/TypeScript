@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./dist/main.js"></script>
+    <title>TypeScript|02-Lesson</title>
+</head>
+<style>
+    body{
+        background-color: #4d3c3c;
+        color: #f3f3f3;
+    }
+    code > div > p {
+        background-color: #1b1a1a;
+        padding: 12px;
+    }
+</style>
+<body>
+    <p>TypeScript Basic Lesson - 02</p>
+    <br />
+    <pre>
+        <code>
+            <div>
+                <p>
+                    By Inference/Implicit<br/> 
+                    let userName = "Saquib";<br />
+                    console.log(userName);<br>
+                    // userName type 'string'
+                    <br><br>
+                    const num1 = 10;<br>
+                    console.log(num1);<br>
+                    // num1 type 'number'
+                </p>
+                <p>
+                    By Explicit <br>
+                    const anotherUserName: string = "Asghar"<br>
+                    console.log(anotherUserName);<br>
+                    // anotherUserName type 'string'
+                    <br><br>
+                    const num2: number = 234;<br>
+                    console.log(num2);<br>
+                    // num2 type 'number'
+                </p>
+                <p>
+                    Error <br>
+                    userName = 29;<br>
+                    //Type 'number' is not assignable to type 'string'.
+                    <br><br>
+                    anotherUserName = true <br>
+                    //Cannot assign to 'anotherUserName' because it is a constant.
+                </p>
+            </div>
+        </code>
+    </pre>
+</body>
+</html>

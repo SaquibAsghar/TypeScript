@@ -31,4 +31,18 @@ const sum = (a: number, b: number): number => a + b;
 
 console.log(sum(13, 7))
 
+let postId:  string | number = "MJ101";
+
+console.log(postId);
+
+postId = 123;
+console.log(postId);
+
+let isActive: boolean | number = false;
+console.log(isActive);
+
+isActive = 1;
+console.log(isActive);
+
+
 
